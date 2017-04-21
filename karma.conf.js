@@ -21,7 +21,7 @@ module.exports = function (config) {
         webpackMiddleware: {
             stats: "errors-only"
         },
-        singleRun: true,
+        singleRun: false,
         webpack: {
             module: {
                 rules: [
