@@ -1,0 +1,9 @@
+node_modules
+.idea
+dist
+npm-debug.log
+.DS_Store
+e2e/tests_output
+e2e/logs
+.vscode/
+.npmrc
