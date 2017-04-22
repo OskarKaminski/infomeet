@@ -6,12 +6,12 @@ module.exports = function (wallaby) {
         files: [
             { pattern: 'node_modules/babel-polyfill/browser.js', instrument: false },
             { pattern: 'node_modules/mockery/**/*.js', load: false },
-            {pattern: 'src/**/*.js', load: false},
-            {pattern: 'src/**/*.spec.js', ignore: true}
+            {pattern: 'blackjack/**/*.js', load: false},
+            {pattern: 'blackjack/**/*.spec.js', ignore: true}
         ],
 
         tests: [
-            {pattern: 'src/**/*.spec.js', load: false}
+            {pattern: 'blackjack/**/*.spec.js', load: false}
         ],
 
         compilers: {
